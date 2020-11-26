@@ -1,8 +1,8 @@
 {
   "name": "de-luca",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Implementation steps:",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
@@ -30,5 +30,14 @@
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
-  }
+  },
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaraPeir/campania-fun.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SaraPeir/campania-fun/issues"
+  },
+  "homepage": "https://github.com/SaraPeir/campania-fun#readme"
 }
